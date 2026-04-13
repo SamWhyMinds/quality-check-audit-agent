@@ -47,3 +47,6 @@ desktop.ini
 dist/
 build/
 *.egg-info/
+*.db-shm
+*.db-wal
+backend/audit_agent.db
