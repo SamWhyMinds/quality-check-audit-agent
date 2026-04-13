@@ -27,7 +27,7 @@ class Settings(BaseSettings):
     # Server
     api_host: str = "0.0.0.0"
     api_port: int = 8000
-    cors_origins: str = "http://localhost:5173,http://localhost:3000"
+    cors_origins: str = "*"
 
     # Logging
     log_level: str = "INFO"
@@ -38,6 +38,8 @@ class Settings(BaseSettings):
 
     @property
     def cors_origins_list(self) -> list[str]:
+        if self.cors_origins.strip() == "*":
+            return ["*"]
         return [o.strip() for o in self.cors_origins.split(",")]
 
 

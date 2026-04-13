@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: quality-check-audit-agent
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: DATABASE_URL
+        value: sqlite:////app/backend/audit_agent.db
+      - key: UPLOAD_DIR
+        value: /app/backend/uploads
