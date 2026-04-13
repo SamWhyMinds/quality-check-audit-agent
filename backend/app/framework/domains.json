@@ -1,0 +1,1130 @@
+{
+  "version": "1.0.0",
+  "title": "Comprehensive Audit Framework Across 19 Domains",
+  "domains": [
+    {
+      "id": "D01",
+      "name": "Third-Party Management and Sub-contractors",
+      "key_controls": [
+        "Maintain a comprehensive third-party inventory with risk classification for all vendors, subcontractors, and fourth parties",
+        "Conduct inherent risk assessments before engaging any subcontractor or outsourced service provider",
+        "Require Confidentiality and Non-Disclosure Agreements from all outsourced relationships",
+        "Perform annual risk and security assessments on critical outsourced functions",
+        "Define policies and procedures for management, notification, and approval of additional/down-chain outsourcing arrangements",
+        "Establish periodic vendor reassessment processes for material changes to risk posture or service offerings",
+        "Implement comprehensive vendor lifecycle management covering onboarding, periodic evaluation, and systematic offboarding"
+      ],
+      "keywords": [
+        "third-party inventory", "subcontractor due diligence", "vendor onboarding", "vendor offboarding",
+        "fourth-party risk", "NDA", "confidentiality agreement", "vendor risk classification",
+        "down-chain outsourcing", "residual risk", "vendor lifecycle management", "concentration risk",
+        "outsourcing", "vendor assessment", "third party", "sub-contractor"
+      ],
+      "audit_questions": [
+        {
+          "id": "D01_Q01",
+          "text": "Is there a complete, up-to-date inventory of all third-party vendors and subcontractors?",
+          "focus_controls": ["Third-party inventory", "Risk classification"],
+          "evidence_types": ["Third-Party and Vendor Management Policy", "ISMS Documentation"]
+        },
+        {
+          "id": "D01_Q02",
+          "text": "Are risk and security assessments conducted before engaging subcontractors?",
+          "focus_controls": ["Inherent risk assessment", "Pre-engagement due diligence"],
+          "evidence_types": ["Risk Management Documentation", "Third-Party and Vendor Management Policy"]
+        },
+        {
+          "id": "D01_Q03",
+          "text": "Are NDAs and confidentiality agreements in place for all outsourced relationships?",
+          "focus_controls": ["NDA/Confidentiality agreements"],
+          "evidence_types": ["Contracts and Legal Agreements"]
+        },
+        {
+          "id": "D01_Q04",
+          "text": "Is there a defined policy for approving and managing additional outsourcing layers?",
+          "focus_controls": ["Down-chain outsourcing policy", "Management approval"],
+          "evidence_types": ["Third-Party and Vendor Management Policy", "ISMS Documentation"]
+        },
+        {
+          "id": "D01_Q05",
+          "text": "Are critical vendors subject to annual reassessment?",
+          "focus_controls": ["Periodic vendor reassessment", "Vendor lifecycle management"],
+          "evidence_types": ["Internal Audit Reports and Records", "Risk Management Documentation"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "Third-Party and Vendor Management Policy",
+        "Contracts and Legal Agreements",
+        "Risk Management Documentation",
+        "ISMS Documentation",
+        "Internal Audit Reports and Records"
+      ]
+    },
+    {
+      "id": "D02",
+      "name": "Governance and Risk Management",
+      "key_controls": [
+        "Maintain a board-approved Enterprise Risk Management (ERM) framework covering people, processes, data, and technology",
+        "Assign a governing body and designated management executive accountable for maintaining the risk governance plan",
+        "Define and communicate organizational risk appetite and approach with clear employee guidelines",
+        "Implement risk metrics systematically measuring and reporting operational effectiveness of controls",
+        "Establish a formal risk register tracking original and residual risks with tolerance validation",
+        "Define risk scenarios addressing threats, vulnerabilities, likelihoods, and impacts affecting all assets",
+        "Conduct periodic independent reviews for oversight and governance of program effectiveness"
+      ],
+      "keywords": [
+        "risk appetite", "ERM framework", "risk governance", "residual risk", "risk register",
+        "risk tolerance", "risk treatment", "control effectiveness", "risk scenarios", "board oversight",
+        "enterprise risk management", "risk management", "governance", "risk assessment", "risk appetite statement"
+      ],
+      "audit_questions": [
+        {
+          "id": "D02_Q01",
+          "text": "Is a formal ERM framework documented and approved by senior management/board?",
+          "focus_controls": ["ERM framework", "Board approval"],
+          "evidence_types": ["Risk Management Documentation", "ISMS Documentation"]
+        },
+        {
+          "id": "D02_Q02",
+          "text": "Is there a designated risk owner at executive/board level?",
+          "focus_controls": ["Risk ownership", "Executive accountability"],
+          "evidence_types": ["ISMS Documentation", "Internal Audit Reports and Records"]
+        },
+        {
+          "id": "D02_Q03",
+          "text": "Is the organizational risk appetite formally defined and communicated?",
+          "focus_controls": ["Risk appetite", "Communication"],
+          "evidence_types": ["Risk Management Documentation", "Information Security Policy"]
+        },
+        {
+          "id": "D02_Q04",
+          "text": "Are risk registers maintained and regularly updated?",
+          "focus_controls": ["Risk register", "Residual risk tracking"],
+          "evidence_types": ["Risk Management Documentation"]
+        },
+        {
+          "id": "D02_Q05",
+          "text": "Are periodic independent reviews conducted on the risk governance program?",
+          "focus_controls": ["Independent review", "Governance oversight"],
+          "evidence_types": ["Internal Audit Reports and Records", "Compliance and Regulatory Documentation"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "Risk Management Documentation",
+        "ISMS Documentation",
+        "Internal Audit Reports and Records",
+        "Compliance and Regulatory Documentation",
+        "Information Security Policy"
+      ]
+    },
+    {
+      "id": "D03",
+      "name": "Information Protection",
+      "key_controls": [
+        "Implement a comprehensive information security policy with formal management approval and verified stakeholder communication",
+        "Establish data classification and handling requirements with data minimization principles, retention policies, and disposal procedures",
+        "Apply security policies for protection requirements on information processed on external systems",
+        "Conduct formal policy review and update processes triggered when significant operating changes occur",
+        "Implement monitoring and logging for information security events with defined escalation protocols",
+        "Enforce access controls based on least-privilege and need-to-know principles for all information assets",
+        "Define data protection impact assessment processes for third parties handling personal data"
+      ],
+      "keywords": [
+        "data classification", "information security policy", "data minimization", "access control",
+        "least privilege", "data retention", "encryption", "data disposal", "DPIA",
+        "security monitoring", "need-to-know", "information protection", "data handling",
+        "classification levels", "data lifecycle"
+      ],
+      "audit_questions": [
+        {
+          "id": "D03_Q01",
+          "text": "Is a formal, management-approved information security policy in place and communicated?",
+          "focus_controls": ["Information security policy", "Management approval"],
+          "evidence_types": ["Information Security Policy", "ISMS Documentation"]
+        },
+        {
+          "id": "D03_Q02",
+          "text": "Are data classification levels defined and applied across all information assets?",
+          "focus_controls": ["Data classification", "Information asset management"],
+          "evidence_types": ["Information Security Policy", "ISMS Documentation"]
+        },
+        {
+          "id": "D03_Q03",
+          "text": "Are data minimization and retention policies enforced?",
+          "focus_controls": ["Data minimization", "Retention policy", "Data disposal"],
+          "evidence_types": ["Data Protection and Privacy Policy", "ISMS Documentation"]
+        },
+        {
+          "id": "D03_Q04",
+          "text": "Are DPIAs conducted for third-party data processing arrangements?",
+          "focus_controls": ["DPIA", "Third-party data processing"],
+          "evidence_types": ["Data Protection and Privacy Policy", "Contracts and Legal Agreements"]
+        },
+        {
+          "id": "D03_Q05",
+          "text": "Are access controls reviewed regularly based on least-privilege principles?",
+          "focus_controls": ["Access control", "Least privilege", "Access review"],
+          "evidence_types": ["Access Control Policy and Procedures", "Monitoring and Logging Records"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "Information Security Policy",
+        "ISMS Documentation",
+        "Data Protection and Privacy Policy",
+        "Monitoring and Logging Records",
+        "Access Control Policy and Procedures"
+      ]
+    },
+    {
+      "id": "D04",
+      "name": "IT Operations and Business Resilience",
+      "key_controls": [
+        "Develop and maintain comprehensive Business Continuity Plans (BCP) and Disaster Recovery Plans (DRP) for all critical banking systems",
+        "Define Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO) for critical systems and services",
+        "Conduct regular BCP/DRP testing with documented outcomes, gap analysis, and improvement plans",
+        "Establish 24x7 incident response procedures with defined escalation matrices and response team contacts",
+        "Implement IT vulnerability management with systematic tracking of remediation timelines and effectiveness",
+        "Ensure technology infrastructure redundancy and capacity planning for banking operations",
+        "Maintain comprehensive IT operations documentation including change management procedures"
+      ],
+      "keywords": [
+        "BCP", "DRP", "RTO", "RPO", "incident response", "vulnerability management",
+        "change management", "IT resilience", "system redundancy", "capacity planning",
+        "24x7 monitoring", "disaster recovery testing", "business continuity",
+        "escalation matrix", "patch management"
+      ],
+      "audit_questions": [
+        {
+          "id": "D04_Q01",
+          "text": "Are BCP and DRP documented, approved, and tested at least annually?",
+          "focus_controls": ["BCP/DRP documentation", "Annual testing"],
+          "evidence_types": ["Business Continuity and Disaster Recovery Plan"]
+        },
+        {
+          "id": "D04_Q02",
+          "text": "Are RTO and RPO defined and validated through testing?",
+          "focus_controls": ["RTO/RPO definition", "Testing validation"],
+          "evidence_types": ["Business Continuity and Disaster Recovery Plan", "IT Operations and Infrastructure Documentation"]
+        },
+        {
+          "id": "D04_Q03",
+          "text": "Is there a documented incident response procedure with defined escalation paths?",
+          "focus_controls": ["Incident response", "Escalation matrix"],
+          "evidence_types": ["Incident Management Procedure"]
+        },
+        {
+          "id": "D04_Q04",
+          "text": "Are vulnerability management processes in place with tracked remediation timelines?",
+          "focus_controls": ["Vulnerability management", "Remediation tracking"],
+          "evidence_types": ["IT Operations and Infrastructure Documentation", "Monitoring and Logging Records"]
+        },
+        {
+          "id": "D04_Q05",
+          "text": "Are change management procedures documented and enforced?",
+          "focus_controls": ["Change management", "Change control"],
+          "evidence_types": ["Change Management Procedures"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "Business Continuity and Disaster Recovery Plan",
+        "IT Operations and Infrastructure Documentation",
+        "Incident Management Procedure",
+        "Change Management Procedures",
+        "Monitoring and Logging Records"
+      ]
+    },
+    {
+      "id": "D05",
+      "name": "Financial Risk Management",
+      "key_controls": [
+        "Maintain audited financial statements, cash flow projections, and demonstrate continuous profitability over three years",
+        "Ensure adequate insurance coverage including professional indemnity, cyber liability, and errors and omissions",
+        "Implement controls preventing excessive debt-to-equity ratios or financial leverage compromising service delivery",
+        "Establish financial performance benchmarking with early warning indicators for declining financial health",
+        "Conduct regular stress testing scenarios for financial resilience under adverse economic conditions",
+        "Maintain detailed contingency funding plans and alternative financing sources for service continuity",
+        "Establish procedures for managing foreign exchange, interest rate risk, and currency hedging"
+      ],
+      "keywords": [
+        "credit risk", "liquidity risk", "debt-to-equity ratio", "financial stress testing",
+        "insurance coverage", "concentration risk", "FX risk", "capital adequacy",
+        "profitability", "early warning indicators", "financial statements", "professional indemnity",
+        "cyber liability", "cash flow", "financial resilience"
+      ],
+      "audit_questions": [
+        {
+          "id": "D05_Q01",
+          "text": "Are audited financial statements and cash flow projections available for the past 3 years?",
+          "focus_controls": ["Financial statements", "Cash flow projections"],
+          "evidence_types": ["Financial Documentation"]
+        },
+        {
+          "id": "D05_Q02",
+          "text": "Is adequate insurance coverage (professional indemnity, cyber liability) maintained?",
+          "focus_controls": ["Insurance coverage", "Professional indemnity", "Cyber liability"],
+          "evidence_types": ["Financial Documentation", "Contracts and Legal Agreements"]
+        },
+        {
+          "id": "D05_Q03",
+          "text": "Are financial stress tests conducted and documented?",
+          "focus_controls": ["Stress testing", "Financial resilience"],
+          "evidence_types": ["Financial Documentation", "Risk Management Documentation"]
+        },
+        {
+          "id": "D05_Q04",
+          "text": "Are early warning indicators for financial deterioration defined and monitored?",
+          "focus_controls": ["Early warning indicators", "Financial monitoring"],
+          "evidence_types": ["Financial Documentation", "Monitoring and Logging Records"]
+        },
+        {
+          "id": "D05_Q05",
+          "text": "Are contingency funding plans in place for adverse market conditions?",
+          "focus_controls": ["Contingency funding", "Alternative financing"],
+          "evidence_types": ["Financial Documentation", "Business Continuity and Disaster Recovery Plan"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "Financial Documentation",
+        "ISMS Documentation",
+        "Compliance and Regulatory Documentation",
+        "Monitoring and Logging Records",
+        "Contracts and Legal Agreements"
+      ]
+    },
+    {
+      "id": "D06",
+      "name": "Legal and Compliance Risk",
+      "key_controls": [
+        "Implement systematic regulatory change management processes ensuring third-party relationships remain compliant with evolving requirements",
+        "Maintain legally binding written contracts clearly defining legal relationships and enforceable service levels",
+        "Include comprehensive indemnification and liability allocation provisions in all contracts",
+        "Establish controls ensuring compliance with RBI IT outsourcing directions including prior approval for arrangements",
+        "Verify that IT service providers comply with banking regulations, data localization requirements, and licensing",
+        "Define clear liability frameworks addressing default events, resolution processes, and data breach remedies",
+        "Ensure contracts include termination rights for legal breaches, fraud, or data leakage"
+      ],
+      "keywords": [
+        "regulatory compliance", "RBI directions", "data localization", "contractual liability",
+        "indemnification", "legal enforceability", "regulatory change management",
+        "prior approval", "breach notification", "compliance audit", "RBI outsourcing",
+        "legal risk", "termination rights", "liability allocation"
+      ],
+      "audit_questions": [
+        {
+          "id": "D06_Q01",
+          "text": "Are all IT outsourcing arrangements compliant with RBI directions and prior approval obtained?",
+          "focus_controls": ["RBI compliance", "Prior approval"],
+          "evidence_types": ["Compliance and Regulatory Documentation", "Contracts and Legal Agreements"]
+        },
+        {
+          "id": "D06_Q02",
+          "text": "Do contracts include comprehensive indemnification and liability clauses?",
+          "focus_controls": ["Indemnification", "Liability allocation"],
+          "evidence_types": ["Contracts and Legal Agreements"]
+        },
+        {
+          "id": "D06_Q03",
+          "text": "Are regulatory change management processes in place to track evolving requirements?",
+          "focus_controls": ["Regulatory change management"],
+          "evidence_types": ["Compliance and Regulatory Documentation", "ISMS Documentation"]
+        },
+        {
+          "id": "D06_Q04",
+          "text": "Do contracts provide for immediate termination in cases of legal breach or fraud?",
+          "focus_controls": ["Termination rights", "Legal breach remedies"],
+          "evidence_types": ["Contracts and Legal Agreements"]
+        },
+        {
+          "id": "D06_Q05",
+          "text": "Are data localization requirements and licensing verifications documented?",
+          "focus_controls": ["Data localization", "Licensing verification"],
+          "evidence_types": ["Compliance and Regulatory Documentation", "ISMS Documentation"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "Contracts and Legal Agreements",
+        "Compliance and Regulatory Documentation",
+        "ISMS Documentation",
+        "Internal Audit Reports and Records",
+        "Data Protection and Privacy Policy"
+      ]
+    },
+    {
+      "id": "D07",
+      "name": "Human Resources Security",
+      "key_controls": [
+        "Conduct comprehensive background verification for all personnel handling banking data, including criminal checks",
+        "Implement mandatory information security awareness training and periodic refresher training for all personnel",
+        "Ensure personnel sign comprehensive confidentiality agreements, acceptable use policies, and security responsibilities",
+        "Enforce role-based access principles with regular privilege reviews and segregation of duties controls",
+        "Establish immediate access revocation, asset return, and exit procedures upon employment termination",
+        "Implement user behavior analytics and monitoring for detecting and responding to insider threats",
+        "Subject contractors and temporary staff to the same background checks, training, and access controls as permanent employees"
+      ],
+      "keywords": [
+        "background verification", "security awareness training", "confidentiality agreements",
+        "segregation of duties", "access revocation", "insider threat", "acceptable use policy",
+        "role-based access", "exit procedures", "HR security", "background check",
+        "employee termination", "user behavior analytics", "personnel security"
+      ],
+      "audit_questions": [
+        {
+          "id": "D07_Q01",
+          "text": "Are background checks conducted for all personnel handling sensitive banking data?",
+          "focus_controls": ["Background verification", "Criminal checks"],
+          "evidence_types": ["HR Security Documentation"]
+        },
+        {
+          "id": "D07_Q02",
+          "text": "Is mandatory security awareness training completed and documented for all staff?",
+          "focus_controls": ["Security awareness training", "Training records"],
+          "evidence_types": ["HR Security Documentation", "ISMS Documentation"]
+        },
+        {
+          "id": "D07_Q03",
+          "text": "Are confidentiality agreements signed by all employees and contractors?",
+          "focus_controls": ["Confidentiality agreements", "Acceptable use policy"],
+          "evidence_types": ["HR Security Documentation", "Contracts and Legal Agreements"]
+        },
+        {
+          "id": "D07_Q04",
+          "text": "Are access privileges reviewed regularly and revoked immediately upon termination?",
+          "focus_controls": ["Access revocation", "Privilege review", "Exit procedures"],
+          "evidence_types": ["Access Control Policy and Procedures", "HR Security Documentation"]
+        },
+        {
+          "id": "D07_Q05",
+          "text": "Are insider threat monitoring mechanisms in place?",
+          "focus_controls": ["Insider threat", "User behavior analytics"],
+          "evidence_types": ["Monitoring and Logging Records", "ISMS Documentation"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "HR Security Documentation",
+        "ISMS Documentation",
+        "Access Control Policy and Procedures",
+        "Contracts and Legal Agreements",
+        "Monitoring and Logging Records"
+      ]
+    },
+    {
+      "id": "D08",
+      "name": "DPDP Domain",
+      "key_controls": [
+        "Appoint a designated Data Protection Officer (DPO) with clearly defined roles and responsibilities",
+        "Maintain a complete inventory of personal data processing activities including data flows, purposes, legal bases, and retention periods",
+        "Implement documented procedures for handling data principal requests (access, correction, erasure, and grievance redressal)",
+        "Enforce technical and organizational security measures including encryption, access controls, and monitoring for personal data",
+        "Establish incident response procedures and breach notification templates aligned with DPDP Act requirements",
+        "Conduct Data Protection Impact Assessments (DPIAs) for all high-risk processing activities",
+        "Implement automated and manual data erasure procedures with audit logs and deletion confirmation"
+      ],
+      "keywords": [
+        "DPDP Act compliance", "Data Protection Officer", "DPO", "data principal rights",
+        "consent management", "data processing inventory", "DPIA", "data erasure",
+        "privacy by design", "breach notification", "data localization",
+        "personal data", "data principal", "right to erasure", "grievance redressal"
+      ],
+      "audit_questions": [
+        {
+          "id": "D08_Q01",
+          "text": "Is a DPO formally appointed with documented roles and responsibilities?",
+          "focus_controls": ["DPO appointment", "Role definition"],
+          "evidence_types": ["Data Protection and Privacy Policy", "ISMS Documentation"]
+        },
+        {
+          "id": "D08_Q02",
+          "text": "Is a data processing inventory maintained with purposes, legal bases, and retention periods?",
+          "focus_controls": ["Data processing inventory", "Legal basis"],
+          "evidence_types": ["Data Protection and Privacy Policy", "ISMS Documentation"]
+        },
+        {
+          "id": "D08_Q03",
+          "text": "Are procedures in place for handling data principal access, correction, and erasure requests?",
+          "focus_controls": ["Data principal rights", "Request handling procedures"],
+          "evidence_types": ["Data Protection and Privacy Policy", "Compliance and Regulatory Documentation"]
+        },
+        {
+          "id": "D08_Q04",
+          "text": "Are DPIAs conducted for high-risk personal data processing activities?",
+          "focus_controls": ["DPIA", "High-risk processing"],
+          "evidence_types": ["Data Protection and Privacy Policy", "ISMS Documentation"]
+        },
+        {
+          "id": "D08_Q05",
+          "text": "Are breach notification procedures compliant with DPDP Act timelines?",
+          "focus_controls": ["Breach notification", "DPDP Act compliance"],
+          "evidence_types": ["Incident Management Procedure", "Compliance and Regulatory Documentation"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "Data Protection and Privacy Policy",
+        "ISMS Documentation",
+        "Compliance and Regulatory Documentation",
+        "Incident Management Procedure",
+        "Contracts and Legal Agreements"
+      ]
+    },
+    {
+      "id": "D09",
+      "name": "Organizational Security Governance",
+      "key_controls": [
+        "Maintain a comprehensive ISMS documentation set including policy framework, process maps, control implementations, and governance structure",
+        "Establish a documented governance framework with committee charters, role definitions, reporting structures, and decision-making authorities",
+        "Develop a comprehensive risk management framework specific to ISMS covering identification, assessment, treatment, and monitoring",
+        "Define KPIs and metrics for monitoring ISMS effectiveness including security metrics, compliance measures, and business alignment",
+        "Implement a comprehensive documentation control system with version control, access controls, retention policies, and audit trails",
+        "Maintain a comprehensive scope statement defining geographical, organizational, and technical boundaries of the ISMS",
+        "Establish a continuous monitoring and improvement process including regular assessments and corrective/preventive measures"
+      ],
+      "keywords": [
+        "ISMS scope", "governance framework", "security governance", "KPIs", "metrics",
+        "documentation control", "continuous improvement", "risk management framework",
+        "organizational context", "stakeholder requirements", "ISMS oversight",
+        "security metrics", "corrective action", "preventive measures", "ISMS"
+      ],
+      "audit_questions": [
+        {
+          "id": "D09_Q01",
+          "text": "Is the ISMS scope formally documented with justified exclusions?",
+          "focus_controls": ["ISMS scope", "Scope documentation"],
+          "evidence_types": ["ISMS Documentation"]
+        },
+        {
+          "id": "D09_Q02",
+          "text": "Is there a governance framework with defined roles, authorities, and reporting structures?",
+          "focus_controls": ["Governance framework", "Role definitions"],
+          "evidence_types": ["ISMS Documentation", "Internal Audit Reports and Records"]
+        },
+        {
+          "id": "D09_Q03",
+          "text": "Are ISMS KPIs and metrics defined, measured, and reported regularly?",
+          "focus_controls": ["KPIs/metrics", "ISMS effectiveness"],
+          "evidence_types": ["ISMS Documentation", "Monitoring and Logging Records"]
+        },
+        {
+          "id": "D09_Q04",
+          "text": "Is documentation control (version control, access, retention) implemented for all ISMS documents?",
+          "focus_controls": ["Documentation control", "Version control"],
+          "evidence_types": ["ISMS Documentation"]
+        },
+        {
+          "id": "D09_Q05",
+          "text": "Is there evidence of continuous improvement processes with corrective/preventive actions?",
+          "focus_controls": ["Continuous improvement", "Corrective/preventive actions"],
+          "evidence_types": ["Internal Audit Reports and Records", "ISMS Documentation"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "ISMS Documentation",
+        "Internal Audit Reports and Records",
+        "Risk Management Documentation",
+        "Compliance and Regulatory Documentation",
+        "Information Security Policy"
+      ]
+    },
+    {
+      "id": "D10",
+      "name": "Physical and Environmental Security",
+      "key_controls": [
+        "Define and document physical security perimeters with access control zones, barrier specifications, and perimeter monitoring",
+        "Implement documented physical access control systems (card readers, biometric devices, visitor management) with comprehensive logging",
+        "Conduct comprehensive security assessments of all facilities with risk ratings and specific protection measures for each zone",
+        "Establish environmental protection systems (HVAC, fire detection/suppression, water leak detection, temperature/humidity monitoring)",
+        "Enforce clean desk and screen lock policies with regular audits, compliance metrics, and corrective actions",
+        "Develop and maintain emergency response procedures including evacuation plans and coordination with emergency services",
+        "Implement secure equipment disposal procedures with data wiping, physical destruction, and disposal certification"
+      ],
+      "keywords": [
+        "physical perimeter", "access control zones", "CCTV monitoring", "visitor management",
+        "clean desk policy", "environmental controls", "equipment disposal", "secure areas",
+        "physical security incident", "fire suppression", "biometric", "HVAC",
+        "data center security", "physical access logs", "secure disposal"
+      ],
+      "audit_questions": [
+        {
+          "id": "D10_Q01",
+          "text": "Are physical security perimeters and access zones clearly defined and documented?",
+          "focus_controls": ["Physical perimeter", "Access control zones"],
+          "evidence_types": ["Physical and Environmental Security Policy"]
+        },
+        {
+          "id": "D10_Q02",
+          "text": "Are access logs (employee/visitor entry/exit) maintained and regularly reviewed?",
+          "focus_controls": ["Access logging", "Visitor management"],
+          "evidence_types": ["Access Control Policy and Procedures", "Monitoring and Logging Records"]
+        },
+        {
+          "id": "D10_Q03",
+          "text": "Are environmental controls (HVAC, fire suppression) tested and documented?",
+          "focus_controls": ["Environmental controls", "Fire suppression"],
+          "evidence_types": ["Physical and Environmental Security Policy", "IT Operations and Infrastructure Documentation"]
+        },
+        {
+          "id": "D10_Q04",
+          "text": "Is a clean desk policy enforced and compliance audited regularly?",
+          "focus_controls": ["Clean desk policy", "Compliance audit"],
+          "evidence_types": ["Physical and Environmental Security Policy", "Internal Audit Reports and Records"]
+        },
+        {
+          "id": "D10_Q05",
+          "text": "Are equipment disposal procedures ensuring secure data destruction in place?",
+          "focus_controls": ["Equipment disposal", "Data wiping"],
+          "evidence_types": ["Physical and Environmental Security Policy", "ISMS Documentation"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "Physical and Environmental Security Policy",
+        "Access Control Policy and Procedures",
+        "ISMS Documentation",
+        "Compliance and Regulatory Documentation",
+        "IT Operations and Infrastructure Documentation"
+      ]
+    },
+    {
+      "id": "D11",
+      "name": "Due Diligence and Vendor Assessment",
+      "key_controls": [
+        "Establish a defined risk assessment and classification method for all vendors with standardized criteria and evaluation frameworks",
+        "Conduct technology infrastructure assessments including security certifications, redundancy plans, and scalability analysis",
+        "Perform comprehensive reputational reviews including legal clearance, regulatory investigation disclosures, and media monitoring",
+        "Require independent third-party technology architecture reviews and penetration testing results for critical vendors",
+        "Document technical expertise, certifications, and past project deliveries for financial institutions",
+        "Establish minimum security requirement criteria, financial stability thresholds, and operational capability standards",
+        "Conduct regular country risk assessments for all operational jurisdictions of vendors"
+      ],
+      "keywords": [
+        "vendor assessment", "due diligence", "risk classification", "reputational review",
+        "technical capability assessment", "security certifications", "penetration testing",
+        "country risk", "reference checks", "financial stability assessment",
+        "ISO 27001", "SOC 2", "vendor scorecard", "vendor due diligence"
+      ],
+      "audit_questions": [
+        {
+          "id": "D11_Q01",
+          "text": "Is a standardized vendor risk assessment and classification method documented and applied?",
+          "focus_controls": ["Vendor risk assessment", "Standardized criteria"],
+          "evidence_types": ["Third-Party and Vendor Management Policy", "Risk Management Documentation"]
+        },
+        {
+          "id": "D11_Q02",
+          "text": "Are reputational and legal clearance checks conducted for all vendors?",
+          "focus_controls": ["Reputational review", "Legal clearance"],
+          "evidence_types": ["Third-Party and Vendor Management Policy", "Contracts and Legal Agreements"]
+        },
+        {
+          "id": "D11_Q03",
+          "text": "Are independent security assessments (pen testing, architecture reviews) required for critical vendors?",
+          "focus_controls": ["Penetration testing", "Architecture reviews"],
+          "evidence_types": ["ISMS Documentation", "Risk Management Documentation"]
+        },
+        {
+          "id": "D11_Q04",
+          "text": "Are minimum security and financial stability thresholds defined and verified?",
+          "focus_controls": ["Minimum security requirements", "Financial stability thresholds"],
+          "evidence_types": ["Third-Party and Vendor Management Policy", "Financial Documentation"]
+        },
+        {
+          "id": "D11_Q05",
+          "text": "Are country risk assessments conducted for vendors with international operations?",
+          "focus_controls": ["Country risk assessment", "International operations"],
+          "evidence_types": ["Risk Management Documentation", "Compliance and Regulatory Documentation"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "Third-Party and Vendor Management Policy",
+        "Risk Management Documentation",
+        "Contracts and Legal Agreements",
+        "ISMS Documentation",
+        "Compliance and Regulatory Documentation"
+      ]
+    },
+    {
+      "id": "D12",
+      "name": "Monitoring and Control",
+      "key_controls": [
+        "Implement a comprehensive KRI framework with leading and lagging indicators, automated alerting, and escalation matrices",
+        "Deploy continuous service level monitoring platforms with automated threshold-based alerting and SLA breach notifications",
+        "Maintain real-time performance monitoring systems with service availability dashboards and response time analytics",
+        "Establish structured communication protocols for material issues, service disruption notifications, and regulatory reporting",
+        "Implement continuous cloud infrastructure monitoring (where applicable) with SIEM integration and real-time threat detection",
+        "Define escalation matrices with trigger points, notification procedures, and board reporting protocols",
+        "Conduct periodic independent reviews for oversight and governance of monitoring program effectiveness"
+      ],
+      "keywords": [
+        "KRI framework", "SLA monitoring", "automated alerting", "escalation matrix",
+        "SIEM", "performance dashboards", "threshold-based alerts", "continuous monitoring",
+        "service availability", "regulatory reporting", "key risk indicator",
+        "SLA breach", "real-time monitoring", "log management", "security operations"
+      ],
+      "audit_questions": [
+        {
+          "id": "D12_Q01",
+          "text": "Is a KRI framework with defined thresholds and automated alerts in place?",
+          "focus_controls": ["KRI framework", "Automated alerting"],
+          "evidence_types": ["Monitoring and Logging Records", "ISMS Documentation"]
+        },
+        {
+          "id": "D12_Q02",
+          "text": "Are SLA performance metrics monitored continuously with breach notification procedures?",
+          "focus_controls": ["SLA monitoring", "Breach notification"],
+          "evidence_types": ["Monitoring and Logging Records", "Contracts and Legal Agreements"]
+        },
+        {
+          "id": "D12_Q03",
+          "text": "Are escalation matrices documented with clear trigger points and stakeholder contacts?",
+          "focus_controls": ["Escalation matrix", "Trigger points"],
+          "evidence_types": ["Incident Management Procedure", "ISMS Documentation"]
+        },
+        {
+          "id": "D12_Q04",
+          "text": "Is SIEM or equivalent continuous monitoring deployed for security events?",
+          "focus_controls": ["SIEM", "Security event monitoring"],
+          "evidence_types": ["Monitoring and Logging Records", "IT Operations and Infrastructure Documentation"]
+        },
+        {
+          "id": "D12_Q05",
+          "text": "Are periodic independent reviews of monitoring effectiveness conducted?",
+          "focus_controls": ["Independent review", "Monitoring governance"],
+          "evidence_types": ["Internal Audit Reports and Records", "Compliance and Regulatory Documentation"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "Monitoring and Logging Records",
+        "ISMS Documentation",
+        "Internal Audit Reports and Records",
+        "Incident Management Procedure",
+        "Compliance and Regulatory Documentation"
+      ]
+    },
+    {
+      "id": "D13",
+      "name": "Cloud Computing and Infrastructure",
+      "key_controls": [
+        "Verify cloud service provider compliance with RBI-approved jurisdictions and data localization/residency requirements",
+        "Implement technical access controls for tenant isolation with contractual provisions preventing unauthorized access",
+        "Deploy comprehensive cloud security architecture including encryption, network segmentation, and threat detection capabilities",
+        "Implement role-based access control with multi-factor authentication, identity management, and privileged access management",
+        "Deploy continuous cloud infrastructure monitoring with automated incident response and forensic readiness",
+        "Conduct regular access reviews and privilege certification processes for all cloud banking system users",
+        "Establish container-based security controls, micro-segmentation, and runtime protection for banking workloads"
+      ],
+      "keywords": [
+        "cloud security", "tenant isolation", "data localization", "RBAC", "MFA",
+        "privileged access management", "cloud SIEM", "container security", "encryption",
+        "cloud compliance", "multi-factor authentication", "cloud provider",
+        "IAM", "zero trust", "network segmentation"
+      ],
+      "audit_questions": [
+        {
+          "id": "D13_Q01",
+          "text": "Are cloud service providers compliant with RBI data localization and jurisdiction requirements?",
+          "focus_controls": ["RBI compliance", "Data localization"],
+          "evidence_types": ["Cloud Security Documentation", "Compliance and Regulatory Documentation"]
+        },
+        {
+          "id": "D13_Q02",
+          "text": "Are tenant isolation and multi-tenant data segregation controls implemented and validated?",
+          "focus_controls": ["Tenant isolation", "Data segregation"],
+          "evidence_types": ["Cloud Security Documentation", "ISMS Documentation"]
+        },
+        {
+          "id": "D13_Q03",
+          "text": "Is MFA enforced for all cloud banking system access?",
+          "focus_controls": ["MFA", "Identity management"],
+          "evidence_types": ["Access Control Policy and Procedures", "Cloud Security Documentation"]
+        },
+        {
+          "id": "D13_Q04",
+          "text": "Are privileged access management systems in place with regular access reviews?",
+          "focus_controls": ["Privileged access management", "Access reviews"],
+          "evidence_types": ["Access Control Policy and Procedures", "Cloud Security Documentation"]
+        },
+        {
+          "id": "D13_Q05",
+          "text": "Is continuous cloud security monitoring with automated incident response deployed?",
+          "focus_controls": ["Cloud monitoring", "Automated incident response"],
+          "evidence_types": ["Monitoring and Logging Records", "Cloud Security Documentation"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "Cloud Security Documentation",
+        "Access Control Policy and Procedures",
+        "ISMS Documentation",
+        "Monitoring and Logging Records",
+        "Compliance and Regulatory Documentation"
+      ]
+    },
+    {
+      "id": "D14",
+      "name": "Exit Strategy and Termination",
+      "key_controls": [
+        "Develop comprehensive exit strategy documentation with termination procedures, senior management approval, and responsibility matrices",
+        "Document secure data transfer procedures including banking data migration protocols and security validation",
+        "Maintain pre-qualified alternative service provider portfolios with regular validation testing of alternative arrangements",
+        "Define business continuity plans during exit transitions minimizing banking operation disruption",
+        "Establish contractual cooperation obligations during transitions including personnel access, documentation handover, and system access agreements",
+        "Conduct comprehensive transition support with knowledge transfer procedures and technical assistance agreements",
+        "Define contractual provisions for data portability and vendor lock-in prevention"
+      ],
+      "keywords": [
+        "exit strategy", "data portability", "transition planning", "vendor lock-in",
+        "alternative provider", "knowledge transfer", "data return", "service continuity",
+        "contractual exit clauses", "termination procedures", "offboarding",
+        "data migration", "transition support", "service handover"
+      ],
+      "audit_questions": [
+        {
+          "id": "D14_Q01",
+          "text": "Is a comprehensive exit strategy documented and approved by senior management?",
+          "focus_controls": ["Exit strategy documentation", "Senior management approval"],
+          "evidence_types": ["Exit and Transition Management Documentation"]
+        },
+        {
+          "id": "D14_Q02",
+          "text": "Are secure data transfer and return procedures defined in contracts?",
+          "focus_controls": ["Secure data transfer", "Data return"],
+          "evidence_types": ["Contracts and Legal Agreements", "Exit and Transition Management Documentation"]
+        },
+        {
+          "id": "D14_Q03",
+          "text": "Are pre-qualified alternative service providers identified and regularly tested?",
+          "focus_controls": ["Alternative provider", "Regular testing"],
+          "evidence_types": ["Exit and Transition Management Documentation", "Risk Management Documentation"]
+        },
+        {
+          "id": "D14_Q04",
+          "text": "Do contracts include data portability and vendor lock-in prevention clauses?",
+          "focus_controls": ["Data portability", "Vendor lock-in prevention"],
+          "evidence_types": ["Contracts and Legal Agreements"]
+        },
+        {
+          "id": "D14_Q05",
+          "text": "Are knowledge transfer and transition support obligations contractually defined?",
+          "focus_controls": ["Knowledge transfer", "Transition support"],
+          "evidence_types": ["Contracts and Legal Agreements", "Exit and Transition Management Documentation"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "Exit and Transition Management Documentation",
+        "Contracts and Legal Agreements",
+        "Business Continuity and Disaster Recovery Plan",
+        "ISMS Documentation",
+        "Compliance and Regulatory Documentation"
+      ]
+    },
+    {
+      "id": "D15",
+      "name": "Cross-Border and Regulatory Compliance",
+      "key_controls": [
+        "Ensure banking data residency within India with technical controls preventing unauthorized cross-border transfers",
+        "Implement contract clauses specifying Indian law governance, exclusive Indian court jurisdiction, and dispute resolution mechanisms",
+        "Develop a dual regulatory compliance framework covering Indian and foreign regulation adherence with conflict resolution mechanisms",
+        "Conduct comprehensive country risk assessments for all operational jurisdictions covering political, economic, and legal risks",
+        "Implement data loss prevention (DLP) systems and jurisdiction boundary monitoring for cross-border transfer prevention",
+        "Maintain regulatory conflict monitoring processes and Indian compliance prioritization frameworks",
+        "Verify contractual enforceability under the Indian legal framework with legal opinion documentation"
+      ],
+      "keywords": [
+        "data localization", "cross-border transfer", "RBI compliance", "Indian jurisdiction",
+        "country risk", "DLP controls", "regulatory conflict", "legal enforceability",
+        "data residency", "dual regulatory compliance", "Indian law", "jurisdiction",
+        "data sovereignty", "cross-border data flow", "regulatory monitoring"
+      ],
+      "audit_questions": [
+        {
+          "id": "D15_Q01",
+          "text": "Are controls in place ensuring banking data remains within India?",
+          "focus_controls": ["Data residency", "Cross-border transfer prevention"],
+          "evidence_types": ["Compliance and Regulatory Documentation", "ISMS Documentation"]
+        },
+        {
+          "id": "D15_Q02",
+          "text": "Do contracts specify Indian law governance and Indian court jurisdiction?",
+          "focus_controls": ["Indian law governance", "Jurisdiction clauses"],
+          "evidence_types": ["Contracts and Legal Agreements"]
+        },
+        {
+          "id": "D15_Q03",
+          "text": "Is a dual regulatory compliance framework in place for multi-jurisdictional operations?",
+          "focus_controls": ["Dual regulatory compliance", "Conflict resolution"],
+          "evidence_types": ["Compliance and Regulatory Documentation", "ISMS Documentation"]
+        },
+        {
+          "id": "D15_Q04",
+          "text": "Are comprehensive country risk assessments conducted and updated regularly?",
+          "focus_controls": ["Country risk assessment"],
+          "evidence_types": ["Risk Management Documentation", "Compliance and Regulatory Documentation"]
+        },
+        {
+          "id": "D15_Q05",
+          "text": "Are DLP systems deployed to prevent unauthorized cross-border data transfers?",
+          "focus_controls": ["DLP controls", "Cross-border transfer monitoring"],
+          "evidence_types": ["Monitoring and Logging Records", "ISMS Documentation"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "Compliance and Regulatory Documentation",
+        "Contracts and Legal Agreements",
+        "ISMS Documentation",
+        "Data Protection and Privacy Policy",
+        "Monitoring and Logging Records"
+      ]
+    },
+    {
+      "id": "D16",
+      "name": "Governance and Organizational Structure",
+      "key_controls": [
+        "Establish board-approved IT outsourcing policies defining risk appetite, governance frameworks, and material outsourcing criteria",
+        "Designate a senior IT function with clearly defined roles, oversight procedures, and a central vendor database",
+        "Implement robust conflict of interest controls with director/key personnel declarations and ownership interest verification",
+        "Establish a comprehensive grievance redressal mechanism for customer complaints related to outsourced IT services",
+        "Define board reporting processes including regular performance metrics, risk assessments, and material change notifications",
+        "Document IT function authority, resource allocation, and vendor performance monitoring capabilities",
+        "Maintain organizational chart showing dedicated TPRM team with clearly defined roles, responsibilities, and reporting structures"
+      ],
+      "keywords": [
+        "board oversight", "IT outsourcing governance", "conflict of interest",
+        "grievance redressal", "organizational structure", "risk appetite",
+        "IT function authority", "material outsourcing", "TPRM team",
+        "senior management accountability", "board reporting", "vendor database",
+        "governance policy", "organizational chart"
+      ],
+      "audit_questions": [
+        {
+          "id": "D16_Q01",
+          "text": "Are board-approved IT outsourcing policies with defined risk appetite documented?",
+          "focus_controls": ["Board-approved policy", "Risk appetite definition"],
+          "evidence_types": ["ISMS Documentation", "Compliance and Regulatory Documentation"]
+        },
+        {
+          "id": "D16_Q02",
+          "text": "Is a senior IT function formally designated with documented authority and responsibilities?",
+          "focus_controls": ["IT function designation", "Documented authority"],
+          "evidence_types": ["ISMS Documentation", "Internal Audit Reports and Records"]
+        },
+        {
+          "id": "D16_Q03",
+          "text": "Are conflict of interest declarations and ownership verification processes in place?",
+          "focus_controls": ["Conflict of interest", "Ownership verification"],
+          "evidence_types": ["Compliance and Regulatory Documentation", "HR Security Documentation"]
+        },
+        {
+          "id": "D16_Q04",
+          "text": "Is a grievance redressal mechanism established for outsourced IT service complaints?",
+          "focus_controls": ["Grievance redressal", "Customer complaints"],
+          "evidence_types": ["Compliance and Regulatory Documentation", "ISMS Documentation"]
+        },
+        {
+          "id": "D16_Q05",
+          "text": "Are regular board reports on IT outsourcing arrangements maintained and reviewed?",
+          "focus_controls": ["Board reporting", "Oversight"],
+          "evidence_types": ["Internal Audit Reports and Records", "ISMS Documentation"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "ISMS Documentation",
+        "Compliance and Regulatory Documentation",
+        "Risk Management Documentation",
+        "Internal Audit Reports and Records",
+        "Contracts and Legal Agreements"
+      ]
+    },
+    {
+      "id": "D17",
+      "name": "Information Security and Data Protection",
+      "key_controls": [
+        "Implement a comprehensive ISMS with formal management approval covering all information security domains",
+        "Apply encryption, access controls, and monitoring systems as technical and organizational security measures",
+        "Establish privacy by design documentation with proactive privacy measures in system design",
+        "Define security policies establishing protection requirements for information processed on external systems",
+        "Implement comprehensive Key Risk Indicator (KRI) framework for information security risk monitoring",
+        "Enforce data breach notification procedures aligned with applicable regulatory timelines",
+        "Conduct mandatory information security awareness training and competency assessments for all personnel"
+      ],
+      "keywords": [
+        "ISMS", "encryption", "privacy by design", "information security policy",
+        "security awareness", "breach notification", "access controls", "KRI",
+        "data protection", "security monitoring", "ISO 27001", "security controls",
+        "data breach", "security posture", "information security management"
+      ],
+      "audit_questions": [
+        {
+          "id": "D17_Q01",
+          "text": "Is a comprehensive ISMS implemented with formal management approval?",
+          "focus_controls": ["ISMS implementation", "Management approval"],
+          "evidence_types": ["ISMS Documentation", "Information Security Policy"]
+        },
+        {
+          "id": "D17_Q02",
+          "text": "Are encryption and access controls applied to all sensitive information assets?",
+          "focus_controls": ["Encryption", "Access controls"],
+          "evidence_types": ["ISMS Documentation", "Access Control Policy and Procedures"]
+        },
+        {
+          "id": "D17_Q03",
+          "text": "Are privacy-by-design principles embedded in system development processes?",
+          "focus_controls": ["Privacy by design", "System development"],
+          "evidence_types": ["Data Protection and Privacy Policy", "ISMS Documentation"]
+        },
+        {
+          "id": "D17_Q04",
+          "text": "Are breach notification procedures aligned with regulatory timelines?",
+          "focus_controls": ["Breach notification", "Regulatory timelines"],
+          "evidence_types": ["Incident Management Procedure", "Compliance and Regulatory Documentation"]
+        },
+        {
+          "id": "D17_Q05",
+          "text": "Is mandatory security awareness training conducted and completion tracked?",
+          "focus_controls": ["Security awareness training", "Completion tracking"],
+          "evidence_types": ["HR Security Documentation", "ISMS Documentation"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "ISMS Documentation",
+        "Information Security Policy",
+        "Data Protection and Privacy Policy",
+        "Access Control Policy and Procedures",
+        "Monitoring and Logging Records"
+      ]
+    },
+    {
+      "id": "D18",
+      "name": "Business Continuity and Disaster Recovery",
+      "key_controls": [
+        "Develop comprehensive BCP and DRP covering critical banking systems with defined RTO and RPO",
+        "Conduct annual BCP/DRP testing with banking client participation, recovery capability validation, and improvement plans",
+        "Maintain a comprehensive risk assessment of critical business processes with business impact analysis",
+        "Define disaster recovery plans for natural disasters, fire, flood, power outages, and cyber incidents",
+        "Establish regular testing documentation with results analysis, plan updates, and business requirement integration",
+        "Implement alternative site arrangements and insourcing capability development plans",
+        "Align SLA performance metrics with business criticality and recovery capability requirements"
+      ],
+      "keywords": [
+        "BCP", "DRP", "RTO", "RPO", "business impact analysis", "recovery testing",
+        "critical systems", "alternative site", "disaster scenarios", "crisis management",
+        "recovery objectives", "annual testing", "disaster recovery",
+        "business continuity", "BIA", "failover"
+      ],
+      "audit_questions": [
+        {
+          "id": "D18_Q01",
+          "text": "Are BCP and DRP documented for all critical banking systems with defined RTO/RPO?",
+          "focus_controls": ["BCP/DRP documentation", "RTO/RPO definition"],
+          "evidence_types": ["Business Continuity and Disaster Recovery Plan"]
+        },
+        {
+          "id": "D18_Q02",
+          "text": "Are annual BCP/DRP tests conducted with documented outcomes and improvement plans?",
+          "focus_controls": ["Annual testing", "Improvement plans"],
+          "evidence_types": ["Business Continuity and Disaster Recovery Plan", "Internal Audit Reports and Records"]
+        },
+        {
+          "id": "D18_Q03",
+          "text": "Is a business impact analysis (BIA) completed identifying critical processes?",
+          "focus_controls": ["Business impact analysis", "Critical process identification"],
+          "evidence_types": ["Business Continuity and Disaster Recovery Plan", "Risk Management Documentation"]
+        },
+        {
+          "id": "D18_Q04",
+          "text": "Are disaster scenarios (natural, cyber, power) covered in recovery plans?",
+          "focus_controls": ["Disaster scenarios", "Recovery plans"],
+          "evidence_types": ["Business Continuity and Disaster Recovery Plan"]
+        },
+        {
+          "id": "D18_Q05",
+          "text": "Are alternative site or insourcing arrangements validated and tested regularly?",
+          "focus_controls": ["Alternative site", "Insourcing capability"],
+          "evidence_types": ["Business Continuity and Disaster Recovery Plan", "IT Operations and Infrastructure Documentation"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "Business Continuity and Disaster Recovery Plan",
+        "IT Operations and Infrastructure Documentation",
+        "ISMS Documentation",
+        "Incident Management Procedure",
+        "Compliance and Regulatory Documentation"
+      ]
+    },
+    {
+      "id": "D19",
+      "name": "Contractual and Legal Compliance",
+      "key_controls": [
+        "Ensure all contracts include comprehensive data protection, cybersecurity, and regulatory compliance requirements",
+        "Include mandatory breach notification requirements with timelines, stakeholder communication, and remediation frameworks",
+        "Define SLA provisions with performance metrics, availability requirements, and penalty provisions in all contracts",
+        "Implement controls ensuring all IT services contracts include provisions for RBI supervisory access and regulatory inspections",
+        "Establish clear ownership of information, trade secrets, and intellectual property with definitions and protection clauses",
+        "Include contract provisions for access, audit, and information rights enabling oversight and compliance verification",
+        "Ensure contractual obligations flow down to all organizational entities including subcontractors and fourth parties"
+      ],
+      "keywords": [
+        "contractual compliance", "SLA provisions", "RBI supervisory access",
+        "breach notification", "IP ownership", "audit rights", "flow-down clauses",
+        "data protection clauses", "penalty provisions", "legal compliance",
+        "service level agreement", "contract terms", "regulatory inspections",
+        "intellectual property", "audit access"
+      ],
+      "audit_questions": [
+        {
+          "id": "D19_Q01",
+          "text": "Do all contracts include comprehensive data protection and cybersecurity requirements?",
+          "focus_controls": ["Data protection clauses", "Cybersecurity requirements"],
+          "evidence_types": ["Contracts and Legal Agreements", "ISMS Documentation"]
+        },
+        {
+          "id": "D19_Q02",
+          "text": "Are mandatory breach notification timelines and remediation frameworks included in contracts?",
+          "focus_controls": ["Breach notification", "Remediation frameworks"],
+          "evidence_types": ["Contracts and Legal Agreements", "Incident Management Procedure"]
+        },
+        {
+          "id": "D19_Q03",
+          "text": "Do contracts include provisions for RBI supervisory access and regulatory inspections?",
+          "focus_controls": ["RBI supervisory access", "Regulatory inspections"],
+          "evidence_types": ["Contracts and Legal Agreements", "Compliance and Regulatory Documentation"]
+        },
+        {
+          "id": "D19_Q04",
+          "text": "Are IP ownership and confidentiality clauses defined in all agreements?",
+          "focus_controls": ["IP ownership", "Confidentiality clauses"],
+          "evidence_types": ["Contracts and Legal Agreements"]
+        },
+        {
+          "id": "D19_Q05",
+          "text": "Are flow-down compliance obligations included for subcontractors and fourth parties?",
+          "focus_controls": ["Flow-down clauses", "Subcontractor obligations"],
+          "evidence_types": ["Contracts and Legal Agreements", "Third-Party and Vendor Management Policy"]
+        }
+      ],
+      "relevant_evidence_types": [
+        "Contracts and Legal Agreements",
+        "ISMS Documentation",
+        "Compliance and Regulatory Documentation",
+        "Data Protection and Privacy Policy",
+        "Third-Party and Vendor Management Policy"
+      ]
+    }
+  ],
+  "evidence_types": [
+    "Third-Party and Vendor Management Policy",
+    "Contracts and Legal Agreements",
+    "Risk Management Documentation",
+    "ISMS Documentation",
+    "Internal Audit Reports and Records",
+    "Information Security Policy",
+    "Data Protection and Privacy Policy",
+    "Monitoring and Logging Records",
+    "Access Control Policy and Procedures",
+    "Business Continuity and Disaster Recovery Plan",
+    "IT Operations and Infrastructure Documentation",
+    "Incident Management Procedure",
+    "Change Management Procedures",
+    "Financial Documentation",
+    "HR Security Documentation",
+    "Cloud Security Documentation",
+    "Physical and Environmental Security Policy",
+    "Exit and Transition Management Documentation",
+    "Compliance and Regulatory Documentation"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"/c/Users/Admin/OneDrive - WhyMinds \\(YMinds Global Solutions Pvt Ltd\\)/Documents/AI Agents/Audit Agent/\")",
+      "Bash(ls \"/c/Users/Admin/OneDrive - WhyMinds \\(YMinds Global Solutions Pvt Ltd\\)/Documents/AI Agents/Audit Agent/backend/\")",
+      "Bash(ls \"/c/Users/Admin/OneDrive - WhyMinds \\(YMinds Global Solutions Pvt Ltd\\)/Documents/AI Agents/Audit Agent/frontend/\")",
+      "Bash(ls \"/c/Users/Admin/OneDrive - WhyMinds \\(YMinds Global Solutions Pvt Ltd\\)/Documents/AI Agents/Audit Agent/backend/app/\")",
+      "Bash(pip install:*)",
+      "Bash(cat '/c/Users/Admin/OneDrive - WhyMinds \\(YMinds Global Solutions Pvt Ltd\\)/Documents/AI Agents/Audit Agent/.env')",
+      "Bash(cat '/c/Users/Admin/OneDrive - WhyMinds \\(YMinds Global Solutions Pvt Ltd\\)/Documents/AI Agents/Audit Agent/.env.example')",
+      "Bash(echo $GROQ_API_KEY)",
+      "Bash(cat \"/c/Users/Admin/OneDrive - WhyMinds \\(YMinds Global Solutions Pvt Ltd\\)/Documents/AI Agents/Audit Agent/frontend/package.json\")",
+      "Bash(cat \"/c/Users/Admin/OneDrive - WhyMinds \\(YMinds Global Solutions Pvt Ltd\\)/Documents/AI Agents/Audit Agent/backend/.env\")",
+      "Bash(python3 -m uvicorn --version)",
+      "Bash(python -m uvicorn --version)",
+      "Bash(node -e \"const pkg = require\\(''./node_modules/lucide-react/package.json''\\); console.log\\(pkg.version\\)\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(ls \"/c/Users/Admin/OneDrive - WhyMinds \\(YMinds Global Solutions Pvt Ltd\\)/Documents/AI Agents/Audit Agent/backend/alembic/versions/\")",
+      "Bash(python -c \":*)",
+      "Bash(curl -s \"http://localhost:8000/api/audits/ad9015f1-9e49-4b00-9821-8c7a8f087576/respond\")",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(''''Status:'''', d.get\\(''''status'''',''''?''''\\), ''''| Questions:'''', len\\(d.get\\(''''questions'''',[]\\)\\)\\)\")",
+      "Bash(curl -s http://localhost:8000/api/audits/ad9015f1-9e49-4b00-9821-8c7a8f087576/respond)",
+      "Bash(ls \"/c/Users/Admin/OneDrive - WhyMinds \\(YMinds Global Solutions Pvt Ltd\\)/Documents/AI Agents/Audit Agent/frontend/src/\")",
+      "Bash(ls \"/c/Users/Admin/OneDrive - WhyMinds \\(YMinds Global Solutions Pvt Ltd\\)/Documents/AI Agents/Audit Agent/frontend/src/styles/\")",
+      "Bash(ls \"/c/Users/Admin/OneDrive - WhyMinds \\(YMinds Global Solutions Pvt Ltd\\)/Documents/AI Agents/Audit Agent/frontend/src/components/\")",
+      "Bash(find \"/c/Users/Admin/OneDrive - WhyMinds \\(YMinds Global Solutions Pvt Ltd\\)/Documents/AI Agents/Audit Agent/frontend/src/components/\" -name \"*.tsx\")",
+      "Bash(cat \"/c/Users/Admin/OneDrive - WhyMinds \\(YMinds Global Solutions Pvt Ltd\\)/Documents/AI Agents/Audit Agent/frontend/src/components/Dashboard/DashboardPage.tsx\")",
+      "Bash(cat \"/c/Users/Admin/OneDrive - WhyMinds \\(YMinds Global Solutions Pvt Ltd\\)/Documents/AI Agents/Audit Agent/frontend/src/components/Layout/AppShell.tsx\")",
+      "Bash(cat \"/c/Users/Admin/OneDrive - WhyMinds \\(YMinds Global Solutions Pvt Ltd\\)/Documents/AI Agents/Audit Agent/frontend/src/components/Audit/AuditsListPage.tsx\")",
+      "Bash(cat \"/c/Users/Admin/OneDrive - WhyMinds \\(YMinds Global Solutions Pvt Ltd\\)/Documents/AI Agents/Audit Agent/frontend/src/components/common/StatusBadge.tsx\")"
+    ]
+  }
+}
